@@ -1,4 +1,4 @@
-const emailRegex = RegExp("^[abc][A-Za-z0-9]+[@]{1}[bridgelabz]+[.][co][.][a-zA-Z]+$");
+const emailRegex = RegExp("^[abc][A-Za-z0-9]+[_+.-][@]{1}[bridgelabz]+[.][co][.][a-zA-Z]+$");
 function validateEmail(email) {
     if (emailRegex.test(email))
         console.log(email + " is Valid");
