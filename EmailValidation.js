@@ -1,0 +1,1 @@
+const emailRegex = RegExp("^[abc][A-Za-z0-9]+[@]{1}[bridgelabz]+[.][co][.][a-zA-Z]+$");
